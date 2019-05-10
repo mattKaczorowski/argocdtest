@@ -35,12 +35,12 @@ spec:
       port: 80
       targetPort: 80
 
----
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: nginx
-spec:
-  backend:
-    serviceName: nginx
-    servicePort: 80
+#---
+#apiVersion: extensions/v1beta1
+#kind: Ingress
+#metadata:
+#  name: nginx
+#spec:
+#  backend:
+#    serviceName: nginx
+#    servicePort: 80
